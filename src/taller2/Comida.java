@@ -17,7 +17,7 @@ public class Comida {
 		this.consumidor = consumidor;
 		this.litros = litros;
 		this.fecha = fecha;
-		this.kcal = (litros* 10) / 3;
+		this.kcal = (litros* 10) / 3.0;
 	}
 
 //CHORIPANES
@@ -27,7 +27,7 @@ public class Comida {
 		this.fecha = fecha;
 		this.largo = largo;
 		this.ancho = ancho;
-		this.kcal = (largo * ancho ) / 3;
+		this.kcal = (largo * ancho ) / 3.0;
 	}
 
 	public String getTipo() {
